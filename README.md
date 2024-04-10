@@ -7,5 +7,3 @@ Source code for [this blogpost](https://xebia.com/blog/deploy-a-custom-docker-im
 - Docker
 - Python
 - Azure CLI
-
-
