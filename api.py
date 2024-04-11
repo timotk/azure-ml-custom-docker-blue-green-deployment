@@ -21,6 +21,7 @@ class PredictionResponse(BaseModel):
 
 
 @app.get("/health")
+@app.get("/ready")
 def health():
     return {"status": "ok"}
 
