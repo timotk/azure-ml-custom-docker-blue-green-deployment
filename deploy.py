@@ -41,9 +41,7 @@ ml_client = MLClient(
 )
 
 # Configure an AML endpoint
-endpoint = ManagedOnlineEndpoint(
-    name="tju-endpoint-1",  # Choose your own name
-)
+endpoint = ManagedOnlineEndpoint(name=args.endpoint_name)
 
 # Create the endpoint
 logging.info(f"Creating/Updating endpoint {endpoint.name}")
